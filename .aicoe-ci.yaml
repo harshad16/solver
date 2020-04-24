@@ -1,0 +1,11 @@
+project-name: q   # Lowercase
+base-image: w
+check:
+  - thoth-coala
+  - thoth-pytest
+  - thoth-precommit
+  - thoth-build
+release:
+    - upload-pypi-sesheta
+build:
+  - custom-build
