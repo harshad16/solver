@@ -1,11 +1,6 @@
-project-name: q   # Lowercase
-base-image: w
+project-name: "solver"
 check:
-  - thoth-coala
   - thoth-pytest
   - thoth-precommit
   - thoth-build
-release:
-    - upload-pypi-sesheta
-build:
-  - custom-build
+  - thoth-custom-build
