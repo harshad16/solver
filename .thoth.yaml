@@ -66,7 +66,7 @@ runtime_environments:
       version: "8"
     python_version: "3.6"
     recommendation_type: latest
-    base_image: quay.io/thoth-station/s2i-thoth-ubi8-py36:v0.23.2
+    base_image: quay.io/thoth-station/s2i-thoth-ubi8-py36:v0.22.0
 
   - name: solver-rhel-8-py38
     operating_system:
@@ -74,7 +74,7 @@ runtime_environments:
       version: "8"
     python_version: "3.8"
     recommendation_type: latest
-    base_image: quay.io/thoth-station/s2i-thoth-ubi8-py38:v0.23.2
+    base_image: quay.io/harshad16/s2i-thoth-ubi8-py38:latest
 
 managers:
   - name: pipfile-requirements
